@@ -1,6 +1,8 @@
 import Dropdown from 'react-bootstrap/Dropdown'
 import Button from 'react-bootstrap/Button'
 
+import Icon from '../atoms/LucideIcons';
+
 function HeaderMain({ title }){
 
     return(
@@ -16,6 +18,7 @@ function HeaderMain({ title }){
 
                 <Dropdown>
                     <Dropdown.Toggle variant="outline-secondary" id="dropdown-basic" className="d-flex align-items-center gap-1">
+                        <Icon name={ iconName } />
                         Calendário
                     </Dropdown.Toggle>
 

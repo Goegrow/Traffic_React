@@ -1,4 +1,4 @@
-import HeaderMain from '../molecules/HeaerMain'
+import HeaderMain from '../molecules/HeaderMain'
 
 function Main(){
 

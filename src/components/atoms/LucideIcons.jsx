@@ -1,9 +1,14 @@
 import { icons } from 'lucide-react';
 
-const Icon = ({ name }) => {
+const Icon = ({ name, className }) => {
   const LucideIcon = icons[name];
 
-  return <LucideIcon/>;
+  if (!LucideIcon) {
+    console.error(`Icon with name "${name}" not found.`);
+    return null; 
+  }
+
+  return <LucideIcon className={className} />;
 };
 
 export default Icon;

@@ -18,7 +18,7 @@ function HeaderMain({ title }){
 
                 <Dropdown>
                     <Dropdown.Toggle variant="outline-secondary" id="dropdown-basic" className="d-flex align-items-center gap-1">
-                        <Icon name={ iconName } />
+                        <Icon name="Calendar" />
                         Calendário
                     </Dropdown.Toggle>
 
